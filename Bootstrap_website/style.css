@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+#cara{
+    width:100%;
+    max-height: 90vh;
+}
+.nav-m{
+    background: #000;
+}
+section{
+    height: 92vh;;
+}
+.explore-event{
+    height:47vh;
+    position:relative;
+}
+.explore-event img{
+    position:absolute;
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
